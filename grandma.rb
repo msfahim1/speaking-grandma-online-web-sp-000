@@ -8,7 +8,7 @@ def speak_to_grandma(phrase)
   else
     return "HUH?! SPEAK UP, SUNNY!"
 
-
+end
 end
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
