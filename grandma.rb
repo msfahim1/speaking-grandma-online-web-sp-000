@@ -1,12 +1,12 @@
 # Write a speak_to_grandma method.
 def speak_to_grandma(phrase)
-  phrase1 = phrase.uppercase
-  if phrase == phrase1
+
+  if phrase == phrase.uppercase
     puts "NO, NOT SINCE 1938!"
   elsif phrase == "I LOVE YOU GRANDMA!"
-    puts "I LOVE YOU TOO PUMPKIN!"
+    return "I LOVE YOU TOO PUMPKIN!"
   else
-    puts "HUH?! SPEAK UP, SUNNY!"
+    return "HUH?! SPEAK UP, SUNNY!"
 
 
 end
